@@ -342,8 +342,8 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return '垃圾砍你牛子';
-    if (score <= 99) return '什么撸，啊音游玩家';
-    if (score <= 149) return '我超，您';
+    if (score <= 99) return '什么撸啊音游玩家';
+    if (score <= 149) return '我超您';
     if (score <= 199) return '给你嗦牛子';
     return '人？';
 }
